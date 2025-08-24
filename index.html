@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML5 Semantic Page</title>
+    <meta name="description" content="A simple HTML5 web page demonstrating semantic structure, accessibility, and beginner-friendly SEO principles.">
+    <meta name="keywords" content="HTML5, accessibility, SEO, semantic, web development">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header role="banner">
+        <h1>Welcome to My HTML5 Page</h1>
+        <nav role="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About This Page</h2>
+            <p>This page demonstrates the use of HTML5 semantic elements while prioritizing accessibility and SEO. Screen readers and search engines can easily understand the content hierarchy.</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" aria-labelledby="services-heading">
+            <h2 id="services-heading">Services Offered</h2>
+            <article>
+                <h3>Web Development</h3>
+                <p>We provide beginner-friendly web development tutorials focusing on semantic HTML and best practices.</p>
+            </article>
+            <article>
+                <h3>SEO Optimization</h3>
+                <p>Our SEO guidance ensures your content is readable for both humans and search engines.</p>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p>You can reach us via email at <a href="mailto:info@example.com">info@example.com</a>.</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer role="contentinfo">
+        <p>&copy; 2025 My HTML5 Semantic Page. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
